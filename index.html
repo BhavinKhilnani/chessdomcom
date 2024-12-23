@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body{
-        height: 500px;
+        width: 227px;
+        height: 355px;
 
     }
     .search-wrapper {
@@ -16,11 +17,19 @@
     input {
       font-size: 1rem;
       padding: 8px;
+      background-color: #565656;
+      color: #f8f8f8;
+      border-radius: 1rem;
+      border: none;
+    }
+    body{
+        background-color: rgb(21, 21, 21);
     }
     .user-cards {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      overflow: hidden;
     }
     .card {
       display: flex;
@@ -28,12 +37,17 @@
       justify-content: center;
       height: 50px;
       width: 150px;
-      border: 1px solid #ccc;
+      border: 1px solid #565656;
       border-radius: 5px;
-      background-color: #f9f9f9;
+      background-color: #353535;
       cursor: pointer;
       text-align: center;
       padding: 25px;
+      color: #f8f8f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    card:hover{
+        font-size: 1.5rem;
     }
     .card h2 {
       font-size: 1rem;
